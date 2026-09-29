@@ -10,6 +10,7 @@ Google Apps Script のウェブアプリとして動きます。
 <https://script.google.com/macros/s/AKfycbyOP_vYPnagEkkHLuU5OSqFlxNJdBABp6GQUzqEGLyvrQb-425-0SJZbOWVidXu2aAOkg/exec>
 
 - スマホ（縦向き）でもパソコンでも遊べます。
+- ログインは不要です。複数の Google アカウントでログインしているブラウザでは、URL が書き換えられて「現在、ファイルを開くことができません」と表示されることがあります。その場合は、**シークレット（プライベート）ウィンドウで開く**か、他の Google アカウントからログアウトしてください。
 - 初めて開いたときに、画面の上に「このアプリケーションは Google Apps Script のユーザーによって作成されたものです」と表示されることがあります。Apps Script で作られたアプリすべてに Google が出す案内で、ゲームの不具合や危険を示すものではありません。
 
 ## 遊び方
