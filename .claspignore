@@ -1,0 +1,5 @@
+# clasp push の対象から外す（原作のソースや開発用のスクリプトは GAS に送らない）
+**/.DS_Store
+**/xbill-2.1/**
+xbill-2.1/**
+tools/**
