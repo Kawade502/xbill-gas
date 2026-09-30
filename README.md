@@ -23,8 +23,8 @@ Google Apps Script のウェブアプリとして動きます。
 
 ## 特徴
 
-- 原作 XBill 2.1 の C ソースをもとに、PC とケーブルの配置、ビルの動き、OS の入れ替え、火花とバケツ、得点、終了条件を移植しています。
-- 絵は原作のものをそのまま使っています。
+- オリジナル XBill 2.1 の C ソースをもとに、PC とケーブルの配置、ビルの動き、OS の入れ替え、火花とバケツ、得点、終了条件を移植しています。
+- 絵はオリジナルのものをそのまま使っています。
 - ランキング（名前とスコア）を Script Properties に保存します。
 
 ## ファイル構成
@@ -35,12 +35,12 @@ src/                    Apps Script のプロジェクト（clasp の rootDir）
   code.gs                 doGet、ランキングの保存と取得
   index.html              画面の骨組み。下の部分ファイルを include で読み込む
   styles.html             CSS
-  assets.html             原作の絵（自動生成）
+  assets.html             オリジナルの絵（自動生成）
   sprites.html            絵の読み込みと描画
   sound.html              効果音
   game.html               ゲーム本体（ルール、操作、画面、ランキングの画面）
-tools/make_assets.py    原作の絵（XPM）から src/assets.html を作る
-third_party/xbill-2.1/  原作の絵の元データ、README、ライセンス表記
+tools/make_assets.py    オリジナルの絵（XPM）から src/assets.html を作る
+third_party/xbill-2.1/  オリジナルの絵の元データ、README、ライセンス表記
 ```
 
 ## 自分の Google アカウントで動かす
@@ -72,10 +72,10 @@ python3 tools/make_assets.py
 ## 難易度の調整
 
 `src/game.html` の `LEVELS`（レベルごとの、ビルの数・出現の勢い・速さなど）だけを変えれば調整できます。
-PC の台数とケーブルの本数は、原作の式のままです。
+PC の台数とケーブルの本数は、オリジナルの式のままです。
 
 ## ライセンスとクレジット
 
 - ライセンス: **GPL-3.0 以降**（[`LICENSE`](LICENSE)）
-- 原作: XBill 2.1 — Copyright (C) Brian Wellington, Matias Duarte（<http://www.xbill.org/>）
+- オリジナル: XBill 2.1 — Copyright (C) Brian Wellington, Matias Duarte（<http://www.xbill.org/>）
 - 詳しくは [`NOTICE.md`](NOTICE.md) を見てください。
